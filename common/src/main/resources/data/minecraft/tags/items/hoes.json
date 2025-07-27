@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "advancedenderite:amethyst_enderite_hoe",
+    "advancedenderite:diamond_enderite_hoe",
+    "advancedenderite:emerald_enderite_hoe",
+    "advancedenderite:gold_enderite_hoe",
+    "advancedenderite:iron_enderite_hoe",
+    "advancedenderite:netherite_enderite_hoe"
+  ]
+}

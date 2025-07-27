@@ -1,0 +1,47 @@
+{
+  "parent": "enderitemod:enderite_armor",
+  "display": {
+    "icon": {
+      "item": "advancedenderite:emerald_enderite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Mark Of The Villager",
+    "description": "You just got the Emerald Enderite Armor set. Are you sure no Villager might steal it? +1600 XP",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 1600
+  },
+  "criteria": {
+    "emerald_enderite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advancedenderite:emerald_enderite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:emerald_enderite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:emerald_enderite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:emerald_enderite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    },
+    {
+      "item": "advancedenderite:emerald_enderite_ingot"
+    }
+  ],
+  "result": {
+    "item": "advancedenderite:emerald_enderite_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+      "advancedenderite:netherite_enderite_ingot",
+      "advancedenderite:iron_enderite_ingot",
+      "advancedenderite:gold_enderite_ingot",
+      "advancedenderite:emerald_enderite_ingot",
+      "advancedenderite:diamond_enderite_ingot",
+      "advancedenderite:amethyst_enderite_ingot"
+    ]
+  }
+  

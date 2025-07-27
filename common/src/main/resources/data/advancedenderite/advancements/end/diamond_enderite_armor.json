@@ -1,0 +1,47 @@
+{
+  "parent": "enderitemod:enderite_armor",
+  "display": {
+    "icon": {
+      "item": "advancedenderite:diamond_enderite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": "X-Ray?",
+    "description": "You just got the Diamond Enderite Armor set. It's quite a lot of Netherite and Enderite. Are you legit? +3200 XP",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 3200
+  },
+  "criteria": {
+    "diamond_enderite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advancedenderite:diamond_enderite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:diamond_enderite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:diamond_enderite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:diamond_enderite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

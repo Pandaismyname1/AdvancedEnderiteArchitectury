@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "advancedenderite:amethyst_enderite_axe",
+    "advancedenderite:diamond_enderite_axe",
+    "advancedenderite:emerald_enderite_axe",
+    "advancedenderite:gold_enderite_axe",
+    "advancedenderite:iron_enderite_axe",
+    "advancedenderite:netherite_enderite_axe"
+  ]
+}

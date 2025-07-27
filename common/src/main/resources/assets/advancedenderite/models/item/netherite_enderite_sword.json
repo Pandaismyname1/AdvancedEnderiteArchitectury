@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "advancedenderite:item/netherite_enderite_sword"
+  }
+}

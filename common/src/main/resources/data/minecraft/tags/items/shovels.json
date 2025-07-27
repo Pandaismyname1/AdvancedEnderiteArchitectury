@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "advancedenderite:amethyst_enderite_shovel",
+    "advancedenderite:diamond_enderite_shovel",
+    "advancedenderite:emerald_enderite_shovel",
+    "advancedenderite:gold_enderite_shovel",
+    "advancedenderite:iron_enderite_shovel",
+    "advancedenderite:netherite_enderite_shovel"
+  ]
+}

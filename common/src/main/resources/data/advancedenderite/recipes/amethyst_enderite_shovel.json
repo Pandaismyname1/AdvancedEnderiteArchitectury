@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "enderitemod:enderite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "advancedenderite:diamond_enderite_shovel"
+    },
+    "addition": {
+        "item": "advancedenderite:amethyst_enderite_ingot"
+    },
+    "result": {
+        "item": "advancedenderite:amethyst_enderite_shovel"
+    }
+}

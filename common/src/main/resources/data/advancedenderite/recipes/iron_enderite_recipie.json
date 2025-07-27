@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "advancedenderite:netherite_enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "advancedenderite:iron_enderite_ingot",
+    "count": 1
+  }
+}

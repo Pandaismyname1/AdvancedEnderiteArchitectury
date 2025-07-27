@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "b": {
+      "item": "advancedenderite:diamond_enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "advancedenderite:amethyst_enderite_ingot",
+    "count": 1
+  }
+}

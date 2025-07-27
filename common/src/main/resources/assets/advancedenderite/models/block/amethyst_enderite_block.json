@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "advancedenderite:block/amethyst_enderite_block",
+    "up": "advancedenderite:block/amethyst_enderite_block",
+    "north": "advancedenderite:block/amethyst_enderite_block",
+    "east": "advancedenderite:block/amethyst_enderite_block",
+    "south": "advancedenderite:block/amethyst_enderite_block",
+    "west": "advancedenderite:block/amethyst_enderite_block",
+    "particle": "advancedenderite:block/amethyst_enderite_block"
+  },
+  "render_type": "solid"
+}

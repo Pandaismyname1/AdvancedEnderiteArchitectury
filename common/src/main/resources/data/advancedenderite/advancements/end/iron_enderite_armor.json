@@ -1,0 +1,47 @@
+{
+  "parent": "enderitemod:enderite_armor",
+  "display": {
+    "icon": {
+      "item": "advancedenderite:iron_enderite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Iron Layer",
+    "description": "You just got the Iron Enderite Armor set. Impressive progress. +400 XP",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 400
+  },
+  "criteria": {
+    "iron_enderite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advancedenderite:iron_enderite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:iron_enderite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:iron_enderite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:iron_enderite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

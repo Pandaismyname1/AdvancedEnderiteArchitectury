@@ -1,0 +1,11 @@
+{
+  "advanced_endedire_sounds": {
+    "subtitle": "subtitles.advanced_endedire_sounds",
+    "sounds": [
+      {
+        "name": "advancedenderite:equip-sound",
+        "stream": false
+      }
+    ]
+  }
+}

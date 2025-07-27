@@ -1,0 +1,47 @@
+{
+  "parent": "enderitemod:enderite_armor",
+  "display": {
+    "icon": {
+      "item": "advancedenderite:gold_enderite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Shiny Enderite",
+    "description": "You just got the Gold Enderite Armor set. Such power enfuriates the piglins. +800 XP",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 800
+  },
+  "criteria": {
+    "gold_enderite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advancedenderite:gold_enderite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:gold_enderite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:gold_enderite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:gold_enderite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

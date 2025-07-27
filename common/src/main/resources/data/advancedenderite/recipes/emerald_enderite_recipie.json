@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    },
+    "b": {
+      "item": "advancedenderite:gold_enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "advancedenderite:emerald_enderite_ingot",
+    "count": 1
+  }
+}

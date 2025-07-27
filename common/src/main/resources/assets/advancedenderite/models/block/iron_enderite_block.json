@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "advancedenderite:block/iron_enderite_block",
+    "up": "advancedenderite:block/iron_enderite_block",
+    "north": "advancedenderite:block/iron_enderite_block",
+    "east": "advancedenderite:block/iron_enderite_block",
+    "south": "advancedenderite:block/iron_enderite_block",
+    "west": "advancedenderite:block/iron_enderite_block",
+    "particle": "advancedenderite:block/iron_enderite_block"
+  },
+  "render_type": "solid"
+}

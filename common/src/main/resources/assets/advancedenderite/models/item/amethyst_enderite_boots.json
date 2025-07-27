@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "advancedenderite:item/amethyst_enderite_boots"
+  }
+}

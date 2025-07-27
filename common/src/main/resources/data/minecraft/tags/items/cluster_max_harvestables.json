@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "advancedenderite:netherite_enderite_pickaxe",
+    "advancedenderite:iron_enderite_pickaxe",
+    "advancedenderite:gold_enderite_pickaxe",
+    "advancedenderite:emerald_enderite_pickaxe",
+    "advancedenderite:diamond_enderite_pickaxe",
+    "advancedenderite:amethyst_enderite_pickaxe"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "enderitemod:enderite_armor",
+  "display": {
+    "icon": {
+      "item": "advancedenderite:netherite_enderite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Further than Enderite",
+    "description": "You just got the Netherite Enderite Armor set. A long path awaits you traveler. +200 XP",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "criteria": {
+    "netherite_enderite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advancedenderite:netherite_enderite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:netherite_enderite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:netherite_enderite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:netherite_enderite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

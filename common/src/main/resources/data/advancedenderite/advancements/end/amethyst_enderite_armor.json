@@ -1,0 +1,47 @@
+{
+  "parent": "enderitemod:enderite_armor",
+  "display": {
+    "icon": {
+      "item": "advancedenderite:amethyst_enderite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": "The Power Of The Amethyst",
+    "description": "You just got the Amethyst Enderite Armor set. Even the ender dragon is envy of you. +6400 XP",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 6400
+  },
+  "criteria": {
+    "amethyst_enderite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advancedenderite:amethyst_enderite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:amethyst_enderite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:amethyst_enderite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "advancedenderite:amethyst_enderite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
