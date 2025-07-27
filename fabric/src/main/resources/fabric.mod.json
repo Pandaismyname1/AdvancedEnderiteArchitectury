@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "advancedenderitearchitectury",
+    "version": "${version}",
+    "name": "AdvancedEnderite",
+    "description": "",
+    "authors": [
+        ""
+    ],
+    "contact": {
+        "homepage": ""
+    },
+    "license": "MIT",
+    "icon": "assets/advancedenderitearchitectury/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.zoompackers.advancedenderitearchitectury.fabric.AdvancedEnderiteFabric"
+        ],
+        "client": [
+            "com.zoompackers.advancedenderitearchitectury.fabric.client.AdvancedEnderiteFabricClient"
+        ]
+    },
+    "mixins": [
+        "advancedenderitearchitectury.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "architectury": ">=9.2.14",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
