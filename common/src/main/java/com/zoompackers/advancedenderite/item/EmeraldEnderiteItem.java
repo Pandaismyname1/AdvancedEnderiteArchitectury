@@ -36,7 +36,7 @@ public abstract class EmeraldEnderiteItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("advancedenderite:advanced_endedire_sounds"));
+				return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.fromNamespaceAndPath("advancedenderite:advanced_endedire_sounds"));
 			}
 
 			@Override

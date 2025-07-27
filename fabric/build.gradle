@@ -31,7 +31,7 @@ dependencies {
 
     modImplementation "dev.architectury:architectury-fabric:$rootProject.architectury_api_version"
 
-    modLocalRuntime "curse.maven:enderite-mod-for-fabric-399221:5017686"
+//    modLocalRuntime "curse.maven:enderite-mod-for-fabric-399221:5888041"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
