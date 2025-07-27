@@ -1,6 +1,6 @@
-package com.zoompackers.advancedenderitearchitectury.forge;
+package com.zoompackers.advancedenderite.forge;
 
-import com.zoompackers.advancedenderitearchitectury.AdvancedEnderite;
+import com.zoompackers.advancedenderite.AdvancedEnderite;
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

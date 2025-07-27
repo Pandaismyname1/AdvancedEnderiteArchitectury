@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'advancedenderitearchitectury'
+rootProject.name = 'advancedenderite'
 
 include 'common'
 include 'fabric'

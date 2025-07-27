@@ -1,4 +1,4 @@
-package com.zoompackers.advancedenderitearchitectury.fabric.client;
+package com.zoompackers.advancedenderite.fabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

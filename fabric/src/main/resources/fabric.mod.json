@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "advancedenderitearchitectury",
+    "id": "advancedenderite",
     "version": "${version}",
     "name": "AdvancedEnderite",
     "description": "",
@@ -11,18 +11,18 @@
         "homepage": ""
     },
     "license": "MIT",
-    "icon": "assets/advancedenderitearchitectury/icon.png",
+    "icon": "assets/advancedenderite/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.zoompackers.advancedenderitearchitectury.fabric.AdvancedEnderiteFabric"
+            "com.zoompackers.advancedenderite.fabric.AdvancedEnderiteFabric"
         ],
         "client": [
-            "com.zoompackers.advancedenderitearchitectury.fabric.client.AdvancedEnderiteFabricClient"
+            "com.zoompackers.advancedenderite.fabric.client.AdvancedEnderiteFabricClient"
         ]
     },
     "mixins": [
-        "advancedenderitearchitectury.mixins.json"
+        "advancedenderite.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=0.16.0",

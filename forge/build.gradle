@@ -4,7 +4,7 @@ plugins {
 
 loom {
     forge {
-        mixinConfig "advancedenderitearchitectury.mixins.json"
+        mixinConfig "advancedenderite.mixins.json"
     }
 }
 

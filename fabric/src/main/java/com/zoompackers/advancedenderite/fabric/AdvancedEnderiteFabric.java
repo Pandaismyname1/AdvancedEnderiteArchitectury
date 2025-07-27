@@ -1,6 +1,6 @@
-package com.zoompackers.advancedenderitearchitectury.fabric;
+package com.zoompackers.advancedenderite.fabric;
 
-import com.zoompackers.advancedenderitearchitectury.AdvancedEnderite;
+import com.zoompackers.advancedenderite.AdvancedEnderite;
 import net.fabricmc.api.ModInitializer;
 
 public final class AdvancedEnderiteFabric implements ModInitializer {
