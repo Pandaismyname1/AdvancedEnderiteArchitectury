@@ -17,7 +17,7 @@ import net.minecraft.core.registries.Registries;
 public class AdvancedenderiteModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(AdvancedEnderite.MOD_ID, Registries.CREATIVE_MODE_TAB);
 	public static final RegistrySupplier<CreativeModeTab> ADVANCED_ENDERITE = REGISTRY.register(AdvancedEnderite.MOD_ID,
-			() -> CreativeTabRegistry.create(Component.translatable("item_group.advancedenderite.advanced_enderite"), () -> new ItemStack(AdvancedenderiteModItems.AMETHYST_ENDERITE_HELMET.get())));
+			() -> CreativeTabRegistry.create(Component.translatable("item_group.advancedenderite.advanced_enderite"), () -> new ItemStack(AdvancedenderiteModItems.AMETHYST_ENDERITE_BLOCK.get())));
 //				tabData.accept(AdvancedenderiteModItems.NETHERITE_ENDERITE_SWORD.get());
 //				tabData.accept(AdvancedenderiteModItems.NETHERITE_ENDERITE_AXE.get());
 //				tabData.accept(AdvancedenderiteModItems.NETHERITE_ENDERITE_PICKAXE.get());
