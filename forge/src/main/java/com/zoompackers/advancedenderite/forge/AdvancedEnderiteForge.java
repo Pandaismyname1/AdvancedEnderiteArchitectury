@@ -1,17 +1,13 @@
 package com.zoompackers.advancedenderite.forge;
 
 import com.zoompackers.advancedenderite.AdvancedEnderite;
-import dev.architectury.platform.forge.EventBuses;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 
 @Mod(AdvancedEnderite.MOD_ID)
 public final class AdvancedEnderiteForge {
-    public AdvancedEnderiteForge() {
-        // Submit our event bus to let Architectury API register our content on the right time.
-        EventBuses.registerModEventBus(AdvancedEnderite.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
-
-        // Run our common setup.
+    public AdvancedEnderiteForge(IEventBus eventBus, ModContainer modContainer) {
         AdvancedEnderite.init();
     }
 }
